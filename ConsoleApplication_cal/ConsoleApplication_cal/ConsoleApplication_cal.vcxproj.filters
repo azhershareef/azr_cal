@@ -18,5 +18,13 @@
     <ClCompile Include="ConsoleApplication_cal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ca_l.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ca_l.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

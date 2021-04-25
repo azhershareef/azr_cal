@@ -2,11 +2,26 @@
 //
 
 #include <iostream>
+#include"ca_l.h"
 using namespace std;
 int main()
 {
     cout << "Hello World!\n";
-	cout << "make a change in git" << endl;
+	float x=0.0, y=0.0, result = 0.0;
+	cout << "please enter the operation to perform formate:a+b|a-b|a*b|a/b" << endl;
+	char oper = '+';
+	ca_l r1;
+	int i = 1;
+	while (i)
+	{
+		cin >> x >> oper >> y;
+		result = r1.calculate(x, oper, y);
+		cout << "result is" << result << endl;
+		cout << "do you want to continue press any number expect 0" << endl;
+		cin >> i;
+	}
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
